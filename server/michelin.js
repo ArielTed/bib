@@ -5,7 +5,6 @@ const cheerio = require('cheerio');
  * Parse webpage restaurant
  * @param  {Array} links - array of link for each restaurant
  * @param  {Array} restaurants - array of object restaurant
- * @return {Object} restaurant
  */
 const parse = async (links, restaurants) => {
   for (link of links) {
@@ -47,6 +46,11 @@ const parse = async (links, restaurants) => {
   }
 };
 
+/**
+ * Get the url of all the restaurants on the website
+ * @param  {Array} links - array of link for each restaurant
+ * @param  {Number} nbPages - number of pages of results
+ */
 const getAllUrls = async (links, nbPages) => {
   const url = "https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/";
   for (let i = 1; i <= nbPages; i++) {
@@ -66,7 +70,7 @@ const getAllUrls = async (links, nbPages) => {
 
 /**
  * Get all France located Bib Gourmand restaurants
- * @return {Array} restaurants
+ * @param {Array} restaurants - array of all the restaurants
  */
 module.exports.get = async (restaurants) => {
   const url = "https://guide.michelin.com/fr/fr/restaurants/bib-gourmand";

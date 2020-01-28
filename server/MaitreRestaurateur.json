@@ -1,0 +1,52 @@
+[
+  {
+    "nom": "RESTAURANT DELICATESSEN",
+    "adresse": "La Croix du Sud - 95 parking du Rivage    83240    CAVALAIRE-SUR-MER",
+    "telephone": "04 94 62 51 15"
+  },
+  {
+    "nom": "LES CAUDALIES",
+    "adresse": "20 avenue Pasteur    39600    ARBOIS",
+    "telephone": "Non renseigné"
+  },
+  {
+    "nom": "LE PUITS FLEURI",
+    "adresse": "ZA le plan des amandiers RD 90    84220    LES BEAUMETTES",
+    "telephone": "04 90 72 45 49"
+  },
+  {
+    "nom": "LA MAR�E",
+    "adresse": "1 rue Daru    75008    PARIS",
+    "telephone": "01 43 80 20 00"
+  },
+  {
+    "nom": "LA TOQUE D'OR",
+    "adresse": "11 rue Louis Blanc    06400    CANNES",
+    "telephone": "04 93 39 68 08"
+  },
+  {
+    "nom": "L'HIPPOCAMPE",
+    "adresse": "14, Quai du Port    13002    MARSEILLE",
+    "telephone": "04 91 90 88 38"
+  },
+  {
+    "nom": "VILLA ARENA",
+    "adresse": "1 place Camille Pelletan    13620    CARRY-LE-ROUET",
+    "telephone": "04 42 45 00 12"
+  },
+  {
+    "nom": "LE TROPICANA",
+    "adresse": "Les trois freres    24140    DOUVILLE",
+    "telephone": "05 53 82 98 31"
+  },
+  {
+    "nom": "FARNIENTE RESTAURANT",
+    "adresse": "Clos du Rh�ne\n    D38 Route d'Aigues Mortes    13460    SAINTES-MARIES-DE-LA-MER",
+    "telephone": "04 28 31 54 10"
+  },
+  {
+    "nom": "RESTAURANT MADO",
+    "adresse": "6 quai Leonard    80550    LE CROTOY",
+    "telephone": "03 22 27 81 22"
+  }
+]
