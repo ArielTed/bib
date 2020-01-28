@@ -1,21 +1,30 @@
 /* eslint-disable no-console, no-process-exit */
+const fs = require('fs');
 const michelin = require('./michelin');
+const maitre = require('./maitre');
 
-async function sandbox (searchLink = 'https://guide.michelin.com/fr/fr/centre-val-de-loire/veuves/restaurant/l-auberge-de-la-croix-blanche') {
+const sandbox = async () => {
   try {
-    console.log(`🕵️‍♀️  browsing ${searchLink} source`);
+    console.log('🕵️‍♀️  browsing https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/');
+    let restaurants = [];
+    await michelin.get(restaurants);
+    const json = await JSON.stringify(restaurants, null, 2);
+    fs.writeFileSync('./BibGourmand.json', json);
 
-    const restaurant = await michelin.scrapeRestaurant(searchLink);
+    console.log('🕵️‍♀️  browsing https://www.maitresrestaurateurs.fr/annuaire/recherche');
+    let restaurants2 = [];
+    await maitre.get(restaurants2);
+    const json2 = await JSON.stringify(restaurants2, null, 2);
+    fs.writeFileSync('./MaitreRestaurateur.json', json2);
 
-    console.log(restaurant);
-    console.log('done');
     process.exit(0);
-  } catch (e) {
+  }
+  catch (e) {
     console.error(e);
     process.exit(1);
   }
 }
 
-const [,, searchLink] = process.argv;
+//const [,, searchLink] = process.argv;
 
-sandbox(searchLink);
+sandbox();
