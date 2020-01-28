@@ -6,44 +6,43 @@ const cheerio = require('cheerio');
  * @param  {Array} links - array of link for each restaurant
  * @param  {Array} restaurants - array of object restaurant
  */
-const parse = async (links, restaurants) => {
-  for (link of links) {
-    const response = await axios(link);
-    const { data, status } = response;
+const parse = async (link, restaurants) => {
+  console.log(`🕵️‍♀️  browsing ${link}`);
+  const response = await axios(link);
+  const { data, status } = response;
 
-    if (status >= 200 && status < 300) {
-      const $ = cheerio.load(data);
-      const nom = $('.section-main h2.restaurant-details__heading--title').text();
-      let adresse;
-      let telephone_child = 4;
-      if ($('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li:nth-child(1)').text().trim().replace(/\s\n/g, '').substr(2) === 'Offre' || $('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li:nth-child(1)').text().trim().replace(/\s\n/g, '').substr(2) === 'Offres') {
-        adresse = $('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li:nth-child(2)').text();
-        telephone_child = 5;
-      }
-      else adresse = $('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li:nth-child(1)').text();
-      const fourchette_type = $('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li.restaurant-details__heading-price').text().trim().replace(/\s/g, '').split("•");
-      const prix = fourchette_type[0];
-      const type = "Cuisine " + fourchette_type[1].substr(7);
-      const experience_array = $('#experience-section > ul > li:nth-child(2)').text().trim().split(' ');
-      const experience = experience_array[experience_array.length - 2] + ' ' + experience_array[experience_array.length - 1];
-      const distinction = 'Bib Gourmand';
-      let telephone;
-      if ($(`body > main > div.restaurant-details > div.container > div > div.col-xl-8.col-lg-7 > section:nth-child(${telephone_child}) > div.row > div:nth-child(1) > div > div:nth-child(1) > div > div > a`).length > 0)
-        telephone = $(`body > main > div.restaurant-details > div.container > div > div.col-xl-8.col-lg-7 > section:nth-child(${telephone_child}) > div.row > div:nth-child(1) > div > div:nth-child(1) > div > div > a`).attr('href').substr(4);
-      else telephone = 'Non renseigné';
-      const restaurant = {
-        nom: nom,
-        adresse: adresse,
-        telephone: telephone,
-        prix: prix,
-        type: type,
-        experience: experience,
-        distinction: distinction
-      };
-      restaurants.push(restaurant);
+  if (status >= 200 && status < 300) {
+    const $ = cheerio.load(data);
+    const nom = $('.section-main h2.restaurant-details__heading--title').text();
+    let adresse;
+    let telephone_child = 4;
+    if ($('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li:nth-child(1)').text().trim().replace(/\s\n/g, '').substr(2) === 'Offre' || $('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li:nth-child(1)').text().trim().replace(/\s\n/g, '').substr(2) === 'Offres') {
+      adresse = $('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li:nth-child(2)').text();
+      telephone_child = 5;
     }
-    else console.error(status);
+    else adresse = $('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li:nth-child(1)').text();
+    const fourchette_type = $('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li.restaurant-details__heading-price').text().trim().replace(/\s/g, '').split("•");
+    const prix = fourchette_type[0];
+    const type = "Cuisine " + fourchette_type[1].substr(7);
+    const experience_array = $('#experience-section > ul > li:nth-child(2)').text().trim().split(' ');
+    const experience = experience_array[experience_array.length - 2] + ' ' + experience_array[experience_array.length - 1];
+    const distinction = 'Bib Gourmand';
+    let telephone;
+    if ($(`body > main > div.restaurant-details > div.container > div > div.col-xl-8.col-lg-7 > section:nth-child(${telephone_child}) > div.row > div:nth-child(1) > div > div:nth-child(1) > div > div > a`).length > 0)
+      telephone = $(`body > main > div.restaurant-details > div.container > div > div.col-xl-8.col-lg-7 > section:nth-child(${telephone_child}) > div.row > div:nth-child(1) > div > div:nth-child(1) > div > div > a`).attr('href').substr(4);
+    else telephone = 'Non renseigné';
+    const restaurant = {
+      nom: nom,
+      adresse: adresse,
+      telephone: telephone,
+      prix: prix,
+      type: type,
+      experience: experience,
+      distinction: distinction
+    };
+    restaurants.push(restaurant);
   }
+  else console.error(status);
 };
 
 /**
@@ -52,6 +51,7 @@ const parse = async (links, restaurants) => {
  * @param  {Number} nbPages - number of pages of results
  */
 const getAllUrls = async (links, nbPages) => {
+  console.log("Getting all restaurants urls...")
   const url = "https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/";
   for (let i = 1; i <= nbPages; i++) {
     const response = await axios(`${url}${i}`);
@@ -86,7 +86,7 @@ module.exports.get = async (restaurants) => {
     const nbPages = Math.ceil(Number(totalRestaurants[totalRestaurants.length - 2]) / 20);
     let links = [];
     await getAllUrls(links, nbPages);
-    await parse(links, restaurants);
+    await Promise.all(links.map(link => parse(link, restaurants)));
   }
   else console.error(status);
 };
