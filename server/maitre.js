@@ -76,7 +76,9 @@ const getAllUrls = async (links, nbPages) => {
  * Get all France located Bib Gourmand restaurants
  * @param {Array} restaurants - array of all the restaurants
  */
-module.exports.get = async (restaurants) => {
+module.exports.get = async () => {
+  let restaurants = [];
+
   const response = await axios({
     method: 'post',
     url: 'https://www.maitresrestaurateurs.fr/annuaire/ajax/loadresult#',
@@ -103,6 +105,11 @@ module.exports.get = async (restaurants) => {
       await Promise.all(array.map(link => parse(link, restaurants)));
       await sleep(2000);
     }
+
+    return restaurants;
   }
-  else console.error(status);
+  else {
+    console.error(status);
+    return restaurants;
+  }
 };
