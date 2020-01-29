@@ -2,6 +2,7 @@
 const fs = require('fs');
 const michelin = require('./michelin');
 const maitre = require('./maitre');
+const bib = require('./bib');
 
 const sandbox = async () => {
   try {
@@ -20,6 +21,12 @@ const sandbox = async () => {
     fs.writeFileSync('server/MaitreRestaurateur.json', json2);
 
     console.log('\nDone.');
+
+    const listMaitreBib = await bib.findBib();
+    console.log('\nList of Maitre Restaurateur restaurants with Bib Gourmand distinction :');
+    console.log(listMaitreBib);
+    console.log(listMaitreBib.length + ' restaurants.')
+
     process.exit(0);
   }
   catch (e) {

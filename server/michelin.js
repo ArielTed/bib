@@ -1,6 +1,10 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 /**
  * Parse webpage restaurant
  * @param  {Array} links - array of link for each restaurant
@@ -53,8 +57,12 @@ const parse = async (link, restaurants) => {
 const getAllUrls = async (links, nbPages) => {
   console.log("Getting all restaurants urls...")
   const url = "https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/";
+  let pagesUrls = [];
   for (let i = 1; i <= nbPages; i++) {
-    const response = await axios(`${url}${i}`);
+    pagesUrls.push(`${url}${i}`);
+  }
+  await Promise.all(pagesUrls.map(async url => {
+    const response = await axios(url);
     const { data, status } = response;
 
     if (status >= 200 && status < 300) {
@@ -65,7 +73,7 @@ const getAllUrls = async (links, nbPages) => {
       });
     }
     else console.error(status);
-  }
+  }));
 }
 
 /**
@@ -86,7 +94,15 @@ module.exports.get = async (restaurants) => {
     const nbPages = Math.ceil(Number(totalRestaurants[totalRestaurants.length - 2]) / 20);
     let links = [];
     await getAllUrls(links, nbPages);
-    await Promise.all(links.map(link => parse(link, restaurants)));
+    let size = 150;
+    let arrayOfArrays = [];
+    for (let i = 0; i < links.length; i += size) {
+      arrayOfArrays.push(links.slice(i, i + size));
+    }
+    for (array of arrayOfArrays) {
+      await Promise.all(array.map(link => parse(link, restaurants)));
+      await sleep(2000);
+    }
   }
   else console.error(status);
 };
