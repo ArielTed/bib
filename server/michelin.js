@@ -28,8 +28,7 @@ const parse = async (link, restaurants) => {
     const fourchette_type = $('body > main > div.restaurant-details > div.container > div > div.col-xl-4.order-xl-8.col-lg-5.order-lg-7.restaurant-details__aside > div.restaurant-details__heading.d-lg-none > ul > li.restaurant-details__heading-price').text().trim().replace(/\s/g, '').split("•");
     const prix = fourchette_type[0];
     const type = "Cuisine " + fourchette_type[1].substr(7);
-    const experience_array = $('#experience-section > ul > li:nth-child(2)').text().trim().split(' ');
-    const experience = experience_array[experience_array.length - 2] + ' ' + experience_array[experience_array.length - 1];
+    const experience = $('#experience-section > ul > li:nth-child(2)').text().trim().substr(1).trim();
     const distinction = 'Bib Gourmand';
     let telephone;
     if ($(`body > main > div.restaurant-details > div.container > div > div.col-xl-8.col-lg-7 > section:nth-child(${telephone_child}) > div.row > div:nth-child(1) > div > div:nth-child(1) > div > div > a`).length > 0)

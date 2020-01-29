@@ -96,7 +96,7 @@ module.exports.get = async () => {
     const nbPages = Math.ceil(Number(totalRestaurants[0]) / 10);
     let links = [];
     await getAllUrls(links, nbPages);
-    let size = 150;
+    let size = 100;
     let arrayOfArrays = [];
     for (let i = 0; i < links.length; i += size) {
       arrayOfArrays.push(links.slice(i, i + size));

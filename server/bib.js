@@ -19,8 +19,8 @@ module.exports.findBib = async () => {
   let bib = [];
   for (restaurant of maitre) {
     for (restaurant2 of michelin) {
-      const nameSimilarity = stringSimilarity.compareTwoStrings(restaurant.nom.toLowerCase().trim().replace(/\s,-'/, ''), restaurant2.nom.toLowerCase().trim().replace(/\s,-'/, ''));
-      const adresseSimilarity = stringSimilarity.compareTwoStrings(restaurant.adresse.toLowerCase().trim().replace(/\s,-'/, ''), restaurant2.adresse.toLowerCase().trim().replace(/\s,-'/, ''));
+      const nameSimilarity = stringSimilarity.compareTwoStrings(restaurant.nom.toLowerCase().trim().replace(/\s\n\r\t,-'/, ''), restaurant2.nom.toLowerCase().trim().replace(/\s\n\r\t,-'/, ''));
+      const adresseSimilarity = stringSimilarity.compareTwoStrings(restaurant.adresse.toLowerCase().trim().replace(/\s\n\r\t,-'/, ''), restaurant2.adresse.toLowerCase().trim().replace(/\s\n\r\t,-'/, ''));
       const telephoneSimilarity = stringSimilarity.compareTwoStrings(restaurant.telephone.substr(1), restaurant2.telephone.substr(4));
       if (nameSimilarity > 0.8 && !contains(restaurant2, bib))
         bib.push(restaurant2);
