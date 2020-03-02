@@ -1,0 +1,947 @@
+[
+  {
+    "nom": "Le Bouche à Oreille",
+    "adresse": "19 rue Paul-Doumer, Le Havre, 76600, France",
+    "telephone": "+33 2 35 45 44 60",
+    "prix": "25-44EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Restaurant de la Plage",
+    "adresse": "1 place de l'Océan, Saint-Palais-sur-Mer, 17420, France",
+    "telephone": "+33 5 46 23 10 32",
+    "prix": "33EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Ruche",
+    "adresse": "13 quai du Docteur-Jules-Bouvat, Saint-Péray, 07130, France",
+    "telephone": "+33 9 82 40 44 38",
+    "prix": "24-35EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Grain de Sel",
+    "adresse": "67 rue Pasteur, Dole, 39100, France",
+    "telephone": "+33 3 84 71 97 36",
+    "prix": "22-55EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le 11 Bistrot Gourmand",
+    "adresse": "11 rue de Verdun, Pontchâteau, 44160, France",
+    "telephone": "+33 2 40 42 23 28",
+    "prix": "26-33EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Bistrot Gourmand",
+    "adresse": "Le Fornet, Val-d'Isère, 73150, France",
+    "telephone": "+33 4 79 00 21 42",
+    "prix": "33EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Petit St-Thomas",
+    "adresse": "25 rue de Lattre-de-Tassigny, La Garnache, 85710, France",
+    "telephone": "+33 2 51 49 05 99",
+    "prix": "30-80EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Bonne Auberge",
+    "adresse": "63 Route Nationale, Dury, 80480, France",
+    "telephone": "+33 3 22 95 03 33",
+    "prix": "32-64EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Grand St-Benoît",
+    "adresse": "7 place St-André, Saint-Benoît-sur-Loire, 45730, France",
+    "telephone": "+33 2 38 35 11 92",
+    "prix": "34-59EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Dauphin",
+    "adresse": "29 rue Gemare, Caen, 14000, France",
+    "telephone": "+33 2 31 86 22 26",
+    "prix": "26-90EUR",
+    "type": "Cuisine moderne",
+    "experience": "Très confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Les Jardins du Léman",
+    "adresse": "Grande-Rue, Yvoire, 74140, France",
+    "telephone": "+33 4 50 72 80 32",
+    "prix": "25-80EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "L'Assiette au Jardin",
+    "adresse": "9 rue du Robinet, Noirmoutier-en-l'Île, 85330, France",
+    "telephone": "+33 2 51 54 93 95",
+    "prix": "32-40EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Fleur de Sel",
+    "adresse": "15 route du Portelin, Cevins, 73730, France",
+    "telephone": "+33 4 79 37 49 98",
+    "prix": "23-82EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Fleur de Sel",
+    "adresse": "17 rue Haute, Honfleur, 14600, France",
+    "telephone": "+33 2 31 89 01 92",
+    "prix": "34-75EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Ttotta",
+    "adresse": "Espace Ibarrondoan, Saint-Pée-sur-Nivelle, 64310, France",
+    "telephone": "+33 5 59 47 03 55",
+    "prix": "15-47EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Table d'Aimé",
+    "adresse": "4 Rue Francisco Ferrer, Rivesaltes, 66600, France",
+    "telephone": "+33 4 68 34 35 77",
+    "prix": "29-34EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Hôtel de France",
+    "adresse": "1 rue Marx-Dormoy, Montmarault, 03390, France",
+    "telephone": "+33 4 70 07 60 26",
+    "prix": "34-71EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Au Cheval Blanc",
+    "adresse": "11 rue Principale, Niedersteinbach, 67510, France",
+    "telephone": "+33 3 88 09 55 31",
+    "prix": "32-70EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Cheval Blanc",
+    "adresse": "1 rue de Bisel, Feldbach, 68640, France",
+    "telephone": "+33 3 89 25 81 86",
+    "prix": "23-56EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Au Cheval Blanc",
+    "adresse": "19 rue Principale, Graufthal, 67320, France",
+    "telephone": "+33 3 88 70 17 11",
+    "prix": "28-55EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Maison Gambert",
+    "adresse": "2 rue de la Petite-Pirelle, Tain-l'Hermitage, 26600, France",
+    "telephone": "+33 4 75 09 19 85",
+    "prix": "33-60EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Jardin",
+    "adresse": "16 rue de la Redoute, Haguenau, 67500, France",
+    "telephone": "+33 3 88 93 29 39",
+    "prix": "21-63EUR",
+    "type": "Cuisine moderne",
+    "experience": "Très confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Histoire Ancienne",
+    "adresse": "20 rue Royale, Calais, 62100, France",
+    "telephone": "+33 3 21 34 11 20",
+    "prix": "23-63EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Lancelot",
+    "adresse": "12 rue des Déportés, Chilleurs-aux-Bois, 45170, France",
+    "telephone": "+33 2 38 32 91 15",
+    "prix": "29-80EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Zorn - La Petite Auberge",
+    "adresse": "45 boulevard Pierre-Brossolette, Laon, 02000, France",
+    "telephone": "+33 3 23 23 02 38",
+    "prix": "33-70EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Tire Bouchon",
+    "adresse": "45 rue Jules-le-Grand, Lorient, 56100, France",
+    "telephone": "+33 2 97 84 71 92",
+    "prix": "22-70EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Pomze",
+    "adresse": "109 boulevard Haussmann, Paris, 75008, France",
+    "telephone": "+33 1 42 65 65 83",
+    "prix": "37-64EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Maison Carrier",
+    "adresse": "44 route du Bouchet, Chamonix-Mont-Blanc, 74400, France",
+    "telephone": "+33 4 50 53 00 03",
+    "prix": "33-72EUR",
+    "type": "Cuisine régionale",
+    "experience": "Confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Restaurant de la Gare",
+    "adresse": "4 rue des Ormelets, Ploubalay, 22650, France",
+    "telephone": "+33 2 96 27 25 16",
+    "prix": "22-70EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Table",
+    "adresse": "1 traverse de Jas, Les Ribas, Tourtour, 83690, France",
+    "telephone": "+33 4 94 70 55 95",
+    "prix": "29-82EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Part des Anges",
+    "adresse": "7 rue d'Empare, Castres, 81100, France",
+    "telephone": "+33 5 63 51 65 25",
+    "prix": "19-49EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Au Colombier",
+    "adresse": "126 allée Colombier, Anse, 69480, France",
+    "telephone": "+33 4 74 67 04 68",
+    "prix": "26-69EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le St-Georges",
+    "adresse": "4 boulevard Maréchal-Foch, Palavas-les-Flots, 34250, France",
+    "telephone": "+33 4 67 68 31 38",
+    "prix": "33-65EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Taverne Alsacienne",
+    "adresse": "99 rue de la République, Ingersheim, 68040, France",
+    "telephone": "+33 3 89 27 08 41",
+    "prix": "19-66EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Bellevue",
+    "adresse": "1 avenue des Pyrénées, Lacroix-Falgarde, 31120, France",
+    "telephone": "+33 5 61 76 94 97",
+    "prix": "21-70EUR",
+    "type": "Cuisine classique",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge le Nézil",
+    "adresse": "route de St-Nazaire, Saint-Lyphard, 44410, France",
+    "telephone": "+33 2 40 91 41 41",
+    "prix": "34-42EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge de Ti-Coz",
+    "adresse": "4 Hent-Koz, Ty-Sanquer, 29000, France",
+    "telephone": "+33 2 98 94 50 02",
+    "prix": "26-85EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Griotte",
+    "adresse": "3 rue des Cerisiers, Saules, 25580, France",
+    "telephone": "+33 3 81 57 17 71",
+    "prix": "17-50EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "France et Fuchsias",
+    "adresse": "20 rue du Maréchal-Foch, Saint-Vaast-la-Hougue, 50550, France",
+    "telephone": "+33 2 33 54 40 41",
+    "prix": "33-83EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Au Fil des Saisons",
+    "adresse": "3 rue de la Libération, Étupes, 25460, France",
+    "telephone": "+33 3 81 94 17 12",
+    "prix": "26-66EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Au Chapeau Rouge",
+    "adresse": "49 place du Général-de-Gaulle, Chinon, 37500, France",
+    "telephone": "+33 2 47 98 08 08",
+    "prix": "30-46EUR",
+    "type": "Cuisine duterroir",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Maison",
+    "adresse": "1 rue du 14-Juillet, Cognac, 16100, France",
+    "telephone": "+33 5 45 35 21 77",
+    "prix": "34-86EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Belle Étoile",
+    "adresse": "Le Bourg, La Roque-Gageac, 24250, France",
+    "telephone": "+33 5 53 29 51 44",
+    "prix": "33-55EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Quai",
+    "adresse": "17 rue Joseph-Peala, Tain-l'Hermitage, 26600, France",
+    "telephone": "+33 4 75 07 05 90",
+    "prix": "24-61EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Manoir du Sphinx",
+    "adresse": "67 chemin de la Messe, Perros-Guirec, 22700, France",
+    "telephone": "+33 2 96 23 25 42",
+    "prix": "25-50EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Chalet",
+    "adresse": "4 avenue Durandeau, Ax-les-Thermes, 09110, France",
+    "telephone": "+33 5 61 64 24 31",
+    "prix": "32-60EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Saint-Jacques",
+    "adresse": "Place du Monument, Thorigné-sur-Dué, 72160, France",
+    "telephone": "+33 2 43 89 95 50",
+    "prix": "33-60EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Coteaux et Fourchettes",
+    "adresse": "Route de Violès, Cairanne, 84290, France",
+    "telephone": "+33 4 90 66 35 99",
+    "prix": "28-79EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Julien",
+    "adresse": "Route de Strasbourg, Fouday, 67130, France",
+    "telephone": "+33 3 88 97 30 09",
+    "prix": "24-60EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "M Restaurant",
+    "adresse": "47 avenue Foch, Lyon, 69006, France",
+    "telephone": "+33 4 78 89 55 19",
+    "prix": "29-39EUR",
+    "type": "Cuisine dumarché",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Colombe",
+    "adresse": "663 route de Toulon, Hyères, 83400, France",
+    "telephone": "+33 4 94 35 35 16",
+    "prix": "32-76EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Les Capucins",
+    "adresse": "20 faubourg de Montbéliard, Belfort, 90000, France",
+    "telephone": "+33 3 84 28 04 60",
+    "prix": "23-65EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Côté Bistro",
+    "adresse": "25 rue de Chambord, Montlivault, 41350, France",
+    "telephone": "+33 2 54 20 62 30",
+    "prix": "32EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "À la 12",
+    "adresse": "6 place de la République, Delme, 57590, France",
+    "telephone": "+33 3 87 01 30 18",
+    "prix": "14-70EUR",
+    "type": "Cuisine créative",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Merenda",
+    "adresse": "4 rue Raoul-Bosio, Nice, 06000, France",
+    "telephone": "Non renseigné",
+    "prix": "34-40EUR",
+    "type": "Cuisine provençale",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge des Tilleuls",
+    "adresse": "8 place de l'Église, Messigny-et-Vantoux, 21380, France",
+    "telephone": "+33 3 80 35 45 22",
+    "prix": "22-32EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge des Deux Magots",
+    "adresse": "1 place du Bouffay, La Roche-Bernard, 56130, France",
+    "telephone": "+33 2 99 90 60 75",
+    "prix": "24-50EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge de la Fontaine du Berger",
+    "adresse": "167 route de Limoges, Orcines, 63870, France",
+    "telephone": "+33 4 73 62 10 52",
+    "prix": "33-66EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Réciproque",
+    "adresse": "14 rue Ferdinand-Flocon, Paris, 75018, France",
+    "telephone": "+33 9 86 37 80 77",
+    "prix": "25-45EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Balade des Saveurs",
+    "adresse": "3 quai Jean-Jaurès, L'Isle-sur-la-Sorgue, 84800, France",
+    "telephone": "+33 4 90 95 27 85",
+    "prix": "20-54EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Chez John",
+    "adresse": "465 route de Gaillac, Ambres, 81500, France",
+    "telephone": "+33 5 63 57 64 85",
+    "prix": "18-70EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Bon Accueil",
+    "adresse": "1 rue de Laval, Richardménil, 54630, France",
+    "telephone": "+33 3 83 25 62 10",
+    "prix": "32-65EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Au Bon Accueil",
+    "adresse": "23 place St-Michel, Juvigny-sous-Andaine, 61140, France",
+    "telephone": "+33 2 33 38 10 04",
+    "prix": "22-62EUR",
+    "type": "Cuisine créative",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Au Bon Accueil",
+    "adresse": "14 rue de Monttessuy, Paris, 75007, France",
+    "telephone": "+33 1 47 05 46 11",
+    "prix": "37-85EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge de l'Île",
+    "adresse": "3 place Bouchard, L'Île-Bouchard, 37220, France",
+    "telephone": "+33 2 47 58 51 07",
+    "prix": "33-56EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Ar Maen Hir",
+    "adresse": "15 bis rue du Prieuré, Locronan, 29180, France",
+    "telephone": "+33 2 56 10 18 37",
+    "prix": "19-45EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "L'Atelier",
+    "adresse": "2 rue Voltaire, Périgueux, 24000, France",
+    "telephone": "+33 5 53 04 56 71",
+    "prix": "24-69EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Maison de Marie",
+    "adresse": "24 rue Gabriel-Vicaire, Perros-Guirec, 22700, France",
+    "telephone": "+33 2 96 49 05 96",
+    "prix": "33-80EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Pointe du Cap Coz",
+    "adresse": "153 avenue de la Pointe, Cap-Coz, 29170, France",
+    "telephone": "+33 2 98 56 01 63",
+    "prix": "34-106EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "L'Arum",
+    "adresse": "21 avenue Joseph-Clotis, Hyères, 83400, France",
+    "telephone": "+33 4 83 99 42 04",
+    "prix": "31-60EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Chez Michel",
+    "adresse": "10 rue de Belzunce, Paris, 75010, France",
+    "telephone": "+33 1 44 53 06 20",
+    "prix": "35-38EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Les Canailles Ménilmontant",
+    "adresse": "15 rue des Panoyaux, Paris, 75020, France",
+    "telephone": "+33 1 43 58 45 45",
+    "prix": "19-50EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Rabelais",
+    "adresse": "8 rue Auguste-Fabre, Saint-Chamas, 13250, France",
+    "telephone": "+33 4 90 50 84 40",
+    "prix": "31-50EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "L'Épicurien",
+    "adresse": "42 place Jean-Jaurès, Albi, 81000, France",
+    "telephone": "+33 5 63 53 10 70",
+    "prix": "22-55EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Au Raisin d'Or",
+    "adresse": "1 rue de l'Église, Zimmerbach, 68230, France",
+    "telephone": "+33 3 89 71 05 69",
+    "prix": "16-47EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Parenthèse",
+    "adresse": "26 place du Châtelet, Orléans, 45000, France",
+    "telephone": "+33 2 38 62 07 50",
+    "prix": "19-42EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "O'Plaisir des Sens",
+    "adresse": "Sous la Grande Vigne, La Roque-Gageac, 24250, France",
+    "telephone": "+33 5 53 29 58 53",
+    "prix": "25-65EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Comptoir des Voyageurs",
+    "adresse": "Place de l'Église, Locronan, 29180, France",
+    "telephone": "+33 2 98 91 70 74",
+    "prix": "23-59EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Manoir de la Pommeraie",
+    "adresse": "L'Auvère, Vire, 14500, France",
+    "telephone": "+33 2 31 68 07 71",
+    "prix": "33-58EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "L'Arche de Meslay",
+    "adresse": "14 rue des Ailes, Parçay-Meslay, 37210, France",
+    "telephone": "+33 2 47 29 00 07",
+    "prix": "23-75EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Vauban",
+    "adresse": "22 quai Caligny, Cherbourg-en-Cotentin, 50100, France",
+    "telephone": "+33 2 33 43 10 11",
+    "prix": "25-62EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Forêt",
+    "adresse": "22 rue de Verdun, Senonches, 28250, France",
+    "telephone": "+33 2 37 37 78 50",
+    "prix": "18-70EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le P'tit Bouchon",
+    "adresse": "66 rue Bernard-Palissy, Gien, 45500, France",
+    "telephone": "+33 2 38 67 84 40",
+    "prix": "27-30EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Au Vieux Moulin",
+    "adresse": "7 rue du Vieux-Moulin, Graufthal, 67320, France",
+    "telephone": "+33 3 88 70 17 28",
+    "prix": "20-68EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge des Chenêts",
+    "adresse": "10 route Nationale 6, Valloux, 89200, France",
+    "telephone": "+33 3 86 34 23 34",
+    "prix": "29-66EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Clé des Champs",
+    "adresse": "place des Frères-Caudron, Favières, 80120, France",
+    "telephone": "+33 3 22 27 88 00",
+    "prix": "27-53EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "L'Embellie",
+    "adresse": "le Bourg, Sainte-Cécile, 71250, France",
+    "telephone": "+33 3 85 50 81 81",
+    "prix": "18-63EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge du Moulin",
+    "adresse": "36 rue des Moulins-du-Tot, Clères, 76690, France",
+    "telephone": "+33 2 35 33 62 76",
+    "prix": "33-63EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Vidal",
+    "adresse": "Place du Marché, Saint-Julien-Chapteuil, 43260, France",
+    "telephone": "+33 4 71 08 70 50",
+    "prix": "31-80EUR",
+    "type": "Cuisine duterroir",
+    "experience": "Très confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge de l'Ady",
+    "adresse": "1 avenue du Pont-de-Malakoff, Valady, 12330, France",
+    "telephone": "+33 5 65 72 70 24",
+    "prix": "19-72EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Aromatic",
+    "adresse": "15 rue du Chariot-d'Or, Lyon, 69004, France",
+    "telephone": "+33 4 78 23 73 61",
+    "prix": "21-48EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge de la Roche",
+    "adresse": "10 Route Nationale 23, Saint-Jean-de-Linières, 49070, France",
+    "telephone": "+33 2 41 39 72 21",
+    "prix": "24-62EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Jardin d'Alice",
+    "adresse": "1098 route de Lillers, Busnes, 62350, France",
+    "telephone": "+33 3 21 68 88 88",
+    "prix": "33-57EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Bistrot des Anges",
+    "adresse": "rue de l'Ouest, Le Cannet, 06110, France",
+    "telephone": "+33 4 92 18 18 28",
+    "prix": "33-93EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Ferme de Victorine",
+    "adresse": "Le Planay, Notre-Dame-de-Bellecombe, 73590, France",
+    "telephone": "+33 4 79 31 63 46",
+    "prix": "33-70EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Le Colvert",
+    "adresse": "8 rue d'en Boyer, Saint-Lieux-lès-Lavaur, 81500, France",
+    "telephone": "+33 5 63 41 32 47",
+    "prix": "15-55EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Les Épices Curiens",
+    "adresse": "3b place de la Gare, Écouviez, 55600, France",
+    "telephone": "+33 3 29 86 84 58",
+    "prix": "30-72EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Voyages des sens",
+    "adresse": "33 rue Principale, Treffort, 01370, France",
+    "telephone": "+33 4 74 51 39 94",
+    "prix": "14-69EUR",
+    "type": "Cuisine moderne",
+    "experience": "Confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Winstub du Chambard",
+    "adresse": "9-13 rue du Général-de-Gaulle, Kaysersberg, 68240, France",
+    "telephone": "+33 3 89 47 10 17",
+    "prix": "33-88EUR",
+    "type": "Cuisine alsacienne",
+    "experience": "Assez confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "L'Escargot",
+    "adresse": "30 rue du Maréchal-Leclerc, Saumur, 49400, France",
+    "telephone": "+33 2 41 51 20 88",
+    "prix": "21-40EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge Pyrénées Cévennes",
+    "adresse": "106 rue de la Folie-Méricourt, Paris, 75011, France",
+    "telephone": "+33 1 43 57 33 78",
+    "prix": "36-72EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "Auberge de la Rivière",
+    "adresse": "rue du Port-de-la-Fouarne, Velluire, 85770, France",
+    "telephone": "+33 2 51 52 32 15",
+    "prix": "34-75EUR",
+    "type": "Cuisine moderne",
+    "experience": "Très confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Table de Léo",
+    "adresse": "Le Bourg, Saint-Avit-Sénieur, 24440, France",
+    "telephone": "+33 5 53 57 89 15",
+    "prix": "33-42EUR",
+    "type": "Cuisine moderne",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "L'Artimon",
+    "adresse": "17 rue Jean-du-Plessis, La Bernerie-en-Retz, 44760, France",
+    "telephone": "+33 2 51 74 61 60",
+    "prix": "21-45EUR",
+    "type": "Cuisine traditionnelle",
+    "experience": "Assez confortable",
+    "distinction": "Bib Gourmand"
+  },
+  {
+    "nom": "La Closerie des Roses",
+    "adresse": "455 La Haute-Meilleraie, Varades, 44370, France",
+    "telephone": "+33 2 40 98 33 30",
+    "prix": "33-67EUR",
+    "type": "Cuisine classique",
+    "experience": "Confortable. Nos établissements de charme.",
+    "distinction": "Bib Gourmand"
+  }
+]
