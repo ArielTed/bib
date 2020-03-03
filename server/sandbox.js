@@ -6,12 +6,12 @@ const bib = require('./bib');
 
 const sandbox = async () => {
   try {
-    /*console.log('🕵️‍♀️  browsing https://guide.michelin.com');
+    console.log('🕵️‍♀️  browsing https://guide.michelin.com');
     const restaurants = await michelin.get();
     const json = await JSON.stringify(restaurants, null, 2);
     fs.writeFileSync('server/BibGourmand.json', json);
 
-    console.log('');*/
+    console.log('');
 
     console.log('🕵️‍♀️  browsing https://www.maitresrestaurateurs.fr');
     const restaurants2 = await maitre.get();
